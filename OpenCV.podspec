@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
   s.version      = “3.0.0”
   s.summary      = “Opencv 3.0 for iOS”
   s.homepage     = "https://github.com/afilippi/iOS-OpenCV3”
-  s.author       = "opencv.org"
+  s.author       = "afilippi, opencv.org"
   s.source       = { 
     :git => "https://github.com/afilippi/iOS-OpenCV3.git", 
-    :tag => "#{s.version}"
+    :tag => "0.0.1"
   }
 
   s.platform     = :ios
