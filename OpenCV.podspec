@@ -32,7 +32,7 @@ the use of this software, even if advised of the possibility of such damage.
   }
   s.platform     = :ios
   s.preserve_paths = 'opencv2.framework'
-  s.vendored_frameworks: 'opencv2.framework'
+  s.source_files = 'opencv2.framework/Versions/A/Headers/**/*{.h,.hpp}'
   s.public_header_files = 'opencv2.framework/Versions/A/Headers/**/*{.h,.hpp}'
   s.header_dir = 'opencv2'
   s.header_mappings_dir = 'opencv2.framework/Versions/A/Headers/'
