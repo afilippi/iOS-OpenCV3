@@ -38,5 +38,5 @@ the use of this software, even if advised of the possibility of such damage.
   s.header_mappings_dir = 'opencv2.framework/Versions/A/Headers/'
   s.libraries    = 'c++'
   s.frameworks = 'opencv2'
-  s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/OpenCV', 'OTHER_LDFLAGS' => '-all_load'}
+  s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/OpenCV'}
 end
