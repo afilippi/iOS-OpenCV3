@@ -31,11 +31,11 @@ the use of this software, even if advised of the possibility of such damage.
     :tag => "#{s.version}"
   }
   s.platform     = :ios
-  s.preserve_paths = 'opencv2.framework'
-  s.source_files = 'opencv2.framework/Versions/A/Headers/**/*{.h,.hpp}'
-  s.public_header_files = 'opencv2.framework/Versions/A/Headers/**/*{.h,.hpp}'
-  s.header_dir = 'opencv2'
-  s.header_mappings_dir = 'opencv2.framework/Versions/A/Headers/'
+  preserve_paths: "opencv2.framework",
+  public_header_files: "opencv2.framework/Versions/A/Headers/**/*{.h,.hpp}",
+  vendored_frameworks: "opencv2.framework",
+  header_dir: "opencv2",
+  header_mappings_dir: "opencv2.framework/Versions/A/Headers/",
   s.libraries    = 'c++'
   s.frameworks = 'opencv2'
   s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/OpenCV', 'OTHER_LDFLAGS' => '-all_load'}
