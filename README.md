@@ -6,7 +6,7 @@ You can import opencv into .mm or .cpp files
 
 Just throw in this line with the rest of your imports at the top
 
-#import <opencv2/opencv.hpp>
+  #import <opencv2/opencv.hpp>
 
 
 ##Adding opencv via cocoapods
